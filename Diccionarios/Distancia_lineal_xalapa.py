@@ -1,4 +1,4 @@
-ditancia_lineal_x = {
+distancia_lineal_x = {
     'X': 0,
     'Z': 54030.619407575214,
     'G': 60545.94784579921,
