@@ -61,11 +61,11 @@ class ProjectWindow(QMainWindow):
         self.lbl_image.setSizePolicy(QSizePolicy(QSizePolicy.Fixed, QSizePolicy.Fixed))
 
         self.cmb_origen.setFixedWidth(85)
-        self.cmb_origen.addItems(['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'J', 'M', 'N', '0', 'P', 'S', 'T', 'U', 'V', 'X', 'Y', 'Z'])
+        self.cmb_origen.addItems(['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'J', 'M', 'N', 'O', 'P', 'S', 'T', 'U', 'V', 'X', 'Y', 'Z'])
         self.cmb_metodo.setFixedWidth(85)
         self.cmb_metodo.addItems(['Greedy', 'A*'])
         self.cmb_destino.setFixedWidth(85)
-        self.cmb_destino.addItems(['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'J', 'M', 'N', '0', 'P', 'S', 'T', 'U', 'V', 'X', 'Y', 'Z'])
+        self.cmb_destino.addItems(['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'J', 'M', 'N', 'O', 'P', 'S', 'T', 'U', 'V', 'X', 'Y', 'Z'])
         self.cmb_origen.setSizePolicy(QSizePolicy(QSizePolicy.Fixed, QSizePolicy.Fixed))
         self.cmb_metodo.setSizePolicy(QSizePolicy(QSizePolicy.Fixed, QSizePolicy.Fixed))
         self.cmb_destino.setSizePolicy(QSizePolicy(QSizePolicy.Fixed, QSizePolicy.Fixed))
