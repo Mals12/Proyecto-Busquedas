@@ -40,19 +40,25 @@ class ProjectWindow(QMainWindow):
     def setup_ui(self):
         self.setWindowTitle('Busqueda Efectiva (BE)')
 
-        self.lbl_instruc.setText('Bienvenidos a Busqueda Efectiva, con este programa podras encontrar la mejor ruta para '
+        self.lbl_instruc.setText('Bienvenidos a Busqueda Efectiva, con este programa podras encontrar la mejor ruta para\n'
                                  'viajar desde donde este hasta cualquier ciudad.\n' 'Selecciona tu ciudad de origen, tu ciudad '
                                  'destino y el método por el cual quieres hallar tu ruta.\n')
-        self.lbl_instruc.setFont(QFont('CambriaMath',12))
+        self.lbl_instruc.setFont(QFont('CambriaMath',22))
         self.lbl_origen.setText('Origen')
+        self.lbl_origen.setFont(QFont('CambriaMath', 14))
+        self.lbl_origen.setStyleSheet("color: firebrick;")
         self.lbl_metodo.setText('Método')
+        self.lbl_metodo.setFont(QFont('CambriaMath', 14))
+        self.lbl_metodo.setStyleSheet("color: navy;")
         self.lbl_destino.setText('Destino')
-        #self.lbl_ruta.setText('Tu ruta es:')
+        self.lbl_destino.setFont(QFont('CambriaMath', 14))
+        self.lbl_destino.setStyleSheet("color: firebrick;")
         self.lbl_image.setPixmap(self.pixmap)
-        self.lbl_origen.setFixedWidth(50)
-        self.lbl_metodo.setFixedWidth(50)
-        self.lbl_destino.setFixedWidth(50)
-        #self.lbl_ruta.setFixedWidth(80)
+        self.lbl_origen.setFixedWidth(80)
+        self.lbl_metodo.setFixedWidth(80)
+        self.lbl_destino.setFixedWidth(80)
+        self.lbl_ruta.setFont(QFont('CambriaMath',22))
+        self.lbl_ruta.setStyleSheet("background-color: white;")
         self.lbl_instruc.setSizePolicy(QSizePolicy(QSizePolicy.Fixed, QSizePolicy.Fixed))
         self.lbl_origen.setSizePolicy(QSizePolicy(QSizePolicy.Fixed, QSizePolicy.Fixed))
         self.lbl_metodo.setSizePolicy(QSizePolicy(QSizePolicy.Fixed, QSizePolicy.Fixed))
@@ -60,18 +66,26 @@ class ProjectWindow(QMainWindow):
         self.lbl_ruta.setSizePolicy(QSizePolicy(QSizePolicy.Fixed, QSizePolicy.Fixed))
         self.lbl_image.setSizePolicy(QSizePolicy(QSizePolicy.Fixed, QSizePolicy.Fixed))
 
-        self.cmb_origen.setFixedWidth(85)
+        self.cmb_origen.setFixedWidth(150)
         self.cmb_origen.addItems(['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'J', 'M', 'N', 'O', 'P', 'S', 'T', 'U', 'V', 'X', 'Y', 'Z'])
-        self.cmb_metodo.setFixedWidth(85)
+        self.cmb_origen.setFont(QFont('CambriaMath', 14))
+        self.cmb_origen.setStyleSheet("background-color: white; color: black;")
+        self.cmb_metodo.setFixedWidth(150)
         self.cmb_metodo.addItems(['Greedy', 'A*'])
-        self.cmb_destino.setFixedWidth(85)
+        self.cmb_metodo.setFont(QFont('CambriaMath', 14))
+        self.cmb_metodo.setStyleSheet("background-color: white; color: black;")
+        self.cmb_destino.setFixedWidth(150)
         self.cmb_destino.addItems(['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'J', 'M', 'N', 'O', 'P', 'S', 'T', 'U', 'V', 'X', 'Y', 'Z'])
+        self.cmb_destino.setFont(QFont('CambriaMath', 14))
+        self.cmb_destino.setStyleSheet("background-color: white; color: black;")
         self.cmb_origen.setSizePolicy(QSizePolicy(QSizePolicy.Fixed, QSizePolicy.Fixed))
         self.cmb_metodo.setSizePolicy(QSizePolicy(QSizePolicy.Fixed, QSizePolicy.Fixed))
         self.cmb_destino.setSizePolicy(QSizePolicy(QSizePolicy.Fixed, QSizePolicy.Fixed))
 
-        self.bot_buscar.setFixedWidth(65)
+        self.bot_buscar.setFixedWidth(100)
         self.bot_buscar.setText('BUSCAR')
+        self.bot_buscar.setFont(QFont('CambriaMath', 12))
+        self.bot_buscar.setStyleSheet("background-color: navy; color: white;")
         self.bot_buscar.setSizePolicy(QSizePolicy(QSizePolicy.Fixed, QSizePolicy.Fixed))
 
         self.lyt_main.addLayout(self.lyt_instruc)
@@ -104,7 +118,7 @@ class ProjectWindow(QMainWindow):
             Bus = greedy(ori,des)
         else:
             Bus = A(ori,des)
-        print(self.lbl_ruta.setText('Tu ruta es:\n'+ str(Bus)))
+        print(self.lbl_ruta.setText('Tu ruta es:    '+ str(Bus)))
 
 if __name__ == '__main__':
     app = QApplication([])
