@@ -1,8 +1,8 @@
-#Búsqueda: búsqueda heurística
+# Búsqueda: búsqueda heurística
 
-###Proyecto
+### Proyecto
 
-####Ana Cecilia Caiceros Lagunes, Miguel Angel Lopez Sandria y Kenia Karla Iasaret Sánchez Ortiz
+#### Ana Cecilia Caiceros Lagunes, Miguel Angel Lopez Sandria y Kenia Karla Iasaret Sánchez Ortiz
 
 ## **I. Introducción**
 Este es un trabajo sobre la _búsqueda heurística_, iniciaremos definiendo lo que son las **búsquedas**.
@@ -24,17 +24,16 @@ Las búsquedas se clasifican en:
 *No heurística:
 Este tipo de búsqueda intenta encontrar  la  primer solución sin importar que tan optima sea, no detecta si está aproximando o alejado de la solución.
 entre estas tenemos:
-
-  *Por amplitud
-  *Costo uniforme
-  *Por profundidad
+  * Por amplitud
+  * Costo uniforme
+  * Por profundidad
 
 *Heurística:
 Las heurísticas son criterios, métodos o principios para decidir cual de entre varias acciones promete ser la mejor para alcanzar una determinada meta.
 Entre estas tenemos:
 
-  *Greedy
-  *A*
-  *Algoritmos genéticos
+  * Greedy
+  * A*
+  * Algoritmos genéticos
 
 Nos enfocaremos en el método de búsqueda heurística.
