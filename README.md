@@ -1,7 +1,5 @@
 # Búsqueda: búsqueda heurística
 
-### Proyecto
-
 #### Ana Cecilia Caiceros Lagunes, Miguel Angel Lopez Sandria y Kenia Karla Iasaret Sánchez Ortiz
 
 ## **I. Introducción**
@@ -37,3 +35,11 @@ Entre estas tenemos:
   * Algoritmos genéticos
 
 Nos enfocaremos en el método de búsqueda heurística.
+
+## **II. Búsquedas heurísticas**
+
+En las búsquedas, nos podemos guiar con heurísticas que nos den una indicacion acerca de que tan bueno o prometedor es un determinado estado u operador.
+>*El uso de heuríscicas nos permite guiar nuestra búsqieda de una solución más rápidamente que si hubieramos utilizado estrategias _no heurísticas_.
+
+>*Una heurística será una función que utilizaremos para estimar qué tan cerca estamos de una solución. Cada una estará diseñada para un problema de búsqueda en particular.
+
