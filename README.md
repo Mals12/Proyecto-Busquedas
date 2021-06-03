@@ -43,3 +43,15 @@ En las búsquedas, nos podemos guiar con heurísticas que nos den una indicacion
 
 >*Una heurística será una función que utilizaremos para estimar qué tan cerca estamos de una solución. Cada una estará diseñada para un problema de búsqueda en particular.
 
+
+
+
+
+## **. Bibliografía**
+
+* [1] Stuart J. Russell y Peter Norvig. Inteligencia artificial, un enfoque moderno. _Segunda edición_ .
+
+* [2] Video Clandestina: http://clandestina-hds.com/busquedasFinalProyect/busquedasFinalProyect.html 
+
+* [3] Búsqueda heurística: https://elvex.ugr.es/decsai/iaio/slides/A5%20Heuristic%20Search.pdf
+
