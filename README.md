@@ -1,5 +1,7 @@
-#Búsqueda: búsqueda herística
+#Búsqueda: búsqueda heurística
+
 ###Proyecto
+
 ####Ana Cecilia Caiceros Lagunes, Miguel Angel Lopez Sandria y Kenia Karla Iasaret Sánchez Ortiz
 
 ## **I. Introducción**
