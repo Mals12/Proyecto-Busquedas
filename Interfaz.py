@@ -33,8 +33,6 @@ class ProjectWindow(QMainWindow):
         self.lbl_image = QLabel()
         self.pixmap = QPixmap('ciudades.jpg')
 
-        #self.bot_buscar.clicked.connect(self.busquedas)
-
         self.setup_ui()
 
     def setup_ui(self):
