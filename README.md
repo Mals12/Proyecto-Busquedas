@@ -61,14 +61,30 @@ La heurística consta de varios procesos, tales como:
 ## **III. Experimento**
 En este apartado se explicará y se llevará acabo la explicación a pequeños rasgos del trabajo realizado.
 
->Se inicia mostrando un listado de lugares dentro del estado de Veracruz para seleccionar y buscar la ruta deseada.
+>Se inicia mostrando un listado de lugares dentro del estado de Veracruz para elegir.
 
-![estados](https://user-images.githubusercontent.com/79228016/120760918-471e1300-c4da-11eb-8a5a-328ebdcfd895.jpg)
+![estados](https://user-images.githubusercontent.com/79228016/120760918-471e1300-c4da-11eb-8a5a-328ebdcfd895.jpg).
 
+>Primero debes seleccionar tu lugar de origen.
 
+![origen](https://user-images.githubusercontent.com/79228016/120845370-5c288f80-c536-11eb-8a4c-1a78e41ce6e5.jpg).
 
+>De esta lista se selecciona el destino para iniciar la ruta.
 
+![destino](https://user-images.githubusercontent.com/79228016/120844969-c42aa600-c535-11eb-9e17-27426656275a.jpg).
 
+>Eliges el método con el que quieres trabjar tu ruta, entre ellos está:
+>*_Greedy_
+>*_A*_
+![metodo](https://user-images.githubusercontent.com/79228016/120845673-c2adad80-c536-11eb-8629-2035332890c7.jpg)
+
+>Seguido de eso está un boton con el nombre de _BUSCAR_, éste hará el comienzo del proceso una vez se haya seleccionado toda la información.
+ 
+ ![buscar](https://user-images.githubusercontent.com/79228016/120845894-06a0b280-c537-11eb-878f-4084ef70fb67.jpg)
+ 
+ >Finalmente, aparecerá la ruta que se encontró y que para el programa resulta más conveniente.
+ 
+ ![ruta](https://user-images.githubusercontent.com/79228016/120846294-84fd5480-c537-11eb-8e8f-ea2d5ac519e3.jpg)
 
 
 ## **. Bibliografía**
