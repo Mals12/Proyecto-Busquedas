@@ -73,9 +73,7 @@ En este apartado se explicará y se llevará acabo la explicación a pequeños r
 
 ![destino](https://user-images.githubusercontent.com/79228016/120844969-c42aa600-c535-11eb-9e17-27426656275a.jpg).
 
->Eliges el método con el que quieres trabjar tu ruta, entre ellos está:
->*_Greedy_
->*_A*_
+>Eliges el método con el que quieres trabjar tu ruta, entre ellos está el método _Greedy_ y _A*_
 
 ![metodo](https://user-images.githubusercontent.com/79228016/120845673-c2adad80-c536-11eb-8629-2035332890c7.jpg)
 
