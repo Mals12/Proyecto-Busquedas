@@ -45,6 +45,7 @@ En las búsquedas, nos podemos guiar con heurísticas que nos den una indicacion
 
 La herística consta de varios procesos tales como:
 
+| :-----------------------------------:|
 | Búsqueda voraz _Primero el mejor_    |
 | Distancia en línea recta             |
 | Búsqueda A*                          |
