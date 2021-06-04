@@ -45,10 +45,9 @@ En las búsquedas, nos podemos guiar con heurísticas que nos den una indicacion
 
 La heurística consta de varios procesos, tales como:
 
-| :-----------------------------------:|
 | Búsqueda voraz _Primero el mejor_    |
 | :-----------------------------------:|
-| Distancia en línea recta             |
+| **Distancia en línea recta           |
 | Búsqueda A*                          |
 | Heurística admisible                 |
 | Consistencia                         |
@@ -56,7 +55,7 @@ La heurística consta de varios procesos, tales como:
 | Desigualdad triangular               |
 | Curvas de nivel                      | 
 | Poda                                 |
-| Optimamente eficiente                |
+| Optimamente eficiente  **            |
 
 
 ## **III. Experimento**
