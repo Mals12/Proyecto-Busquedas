@@ -43,6 +43,26 @@ En las búsquedas, nos podemos guiar con heurísticas que nos den una indicacion
 
 >*Una heurística será una función que utilizaremos para estimar qué tan cerca estamos de una solución. Cada una estará diseñada para un problema de búsqueda en particular.
 
+La herística consta de varios procesos tales como:
+
+| Búsqueda voraz _Primero el mejor_    |
+| Distancia en línea recta             |
+| Búsqueda A*                          |
+| Heurística admisible                 |
+| Consistencia                         |
+| Monotonía                            |
+| Desigualdad triangular               |
+| Curvas de nivel                      | 
+| Poda                                 |
+| Optimamente eficiente                |
+
+
+## **III. experimento**
+En este apartado se explicará y se llevará acabo la explicación a pequeños rasgos del trabajo realizado.
+
+
+
+
 
 
 
