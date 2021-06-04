@@ -47,7 +47,7 @@ La heurística consta de varios procesos, tales como:
 
 | Búsqueda voraz _Primero el mejor_    |
 | :-----------------------------------:|
-| **Distancia en línea recta           |
+| Distancia en línea recta             |
 | Búsqueda A*                          |
 | Heurística admisible                 |
 | Consistencia                         |
@@ -55,12 +55,15 @@ La heurística consta de varios procesos, tales como:
 | Desigualdad triangular               |
 | Curvas de nivel                      | 
 | Poda                                 |
-| Optimamente eficiente  **            |
+| Optimamente eficiente                |
 
 
 ## **III. Experimento**
 En este apartado se explicará y se llevará acabo la explicación a pequeños rasgos del trabajo realizado.
 
+>Se inicia mostrando un listado de lugares dentro del estado de Veracruz para seleccionar y buscar la ruta deseada.
+
+![estados](https://user-images.githubusercontent.com/79228016/120760918-471e1300-c4da-11eb-8a5a-328ebdcfd895.jpg)
 
 
 
