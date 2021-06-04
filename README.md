@@ -76,6 +76,7 @@ En este apartado se explicará y se llevará acabo la explicación a pequeños r
 >Eliges el método con el que quieres trabjar tu ruta, entre ellos está:
 >*_Greedy_
 >*_A*_
+
 ![metodo](https://user-images.githubusercontent.com/79228016/120845673-c2adad80-c536-11eb-8629-2035332890c7.jpg)
 
 >Seguido de eso está un boton con el nombre de _BUSCAR_, éste hará el comienzo del proceso una vez se haya seleccionado toda la información.
