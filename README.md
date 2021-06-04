@@ -63,17 +63,17 @@ En este apartado se explicará y se llevará acabo la explicación a pequeños r
 
 >Se inicia mostrando un listado de lugares dentro del estado de Veracruz para elegir.
 
-![estados](https://user-images.githubusercontent.com/79228016/120760918-471e1300-c4da-11eb-8a5a-328ebdcfd895.jpg).
+![estados](https://user-images.githubusercontent.com/79228016/120760918-471e1300-c4da-11eb-8a5a-328ebdcfd895.jpg)
 
 >Primero debes seleccionar tu lugar de origen.
 
-![origen](https://user-images.githubusercontent.com/79228016/120845370-5c288f80-c536-11eb-8a4c-1a78e41ce6e5.jpg).
+![origen](https://user-images.githubusercontent.com/79228016/120845370-5c288f80-c536-11eb-8a4c-1a78e41ce6e5.jpg)
 
 >De esta lista se selecciona el destino para iniciar la ruta.
 
-![destino](https://user-images.githubusercontent.com/79228016/120844969-c42aa600-c535-11eb-9e17-27426656275a.jpg).
+![destino](https://user-images.githubusercontent.com/79228016/120844969-c42aa600-c535-11eb-9e17-27426656275a.jpg)
 
->Eliges el método con el que quieres trabjar tu ruta, entre ellos está el método _Greedy_ y _A*_
+>Eliges el método con el que quieres trabjar tu ruta, entre ellos está el método _Greedy_ y _A*_.
 
 ![metodo](https://user-images.githubusercontent.com/79228016/120845673-c2adad80-c536-11eb-8629-2035332890c7.jpg)
 
